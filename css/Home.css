@@ -1,0 +1,383 @@
+@font-face {
+    font-family: 'Titolazioni';
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+@font-face{
+    font-family: 'Garamond';
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+} 
+@font-face {
+    font-family: 'GaramondRegular';
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family:'Paragrafi';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+body{ background-color:#F3F2EE ;
+margin:0;
+}
+nav{
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+
+}
+#titolo{margin: 10px 0px;}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw; 
+ }
+
+nav a {margin :5px;}
+.sx{
+    width: 20%;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+}
+.dx{
+    width: 20%;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+}
+.noMarginBottom{
+    margin-bottom: 0px;
+}
+.header{
+   font-family:'Titolazioni';
+   font-size: 250%;
+   color: #1e1e1e;
+}
+.sottotitolo{
+    font-family:'Garamond';
+    font-size: 3vw;
+    color: #1e1e1e
+}
+.link{
+    margin: 10px;
+    font-family:'Titolazioni';
+    font-size: 3.5vw; 
+    color: #1e1e1e
+    
+}
+
+.paragrafi{
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+#sottotitoletto{
+    font-family:'Paragrafi';  
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    width: 86%;
+    padding: 4% 7% 7% 7%;
+    border-bottom: 1px solid black;
+
+}
+
+.hero a{
+    height: 4%;
+    margin: -3%;
+}
+.hero img{
+    width: 100%;
+   
+}
+.centro{
+    margin-top: 2px;
+    border-top: 1px solid black;
+    display: flex;
+justify-content: center;  
+padding: 4% 7%;
+border-bottom: 1px solid black; 
+margin-bottom: 2px;
+
+
+}
+#museo{
+    width:50%;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+#emilio{
+    width: 100%;
+}
+.emilio{width: 44%;
+    }
+.artista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:16% 0% 0 16%;
+}
+.ilMuseo{
+    border-bottom: 1px solid black;
+    padding:0% 0% 10% 16%;
+}
+em{
+    color: #962828;
+    font-style: normal;
+}
+.mostra{
+ border-top: 1px solid black;
+ padding-top: 5%;
+display: flex;
+gap: 45px;
+padding-left: 7%;
+padding-bottom: 5%;
+border-bottom: 1px solid black;
+}
+.mostra img{
+    width: 30%;
+}
+.mostra em{
+font-style: italic;
+color: black;
+}
+.figlioMinore{
+    width: 80%;
+    border-top: 1px solid black;
+}
+.figlioMinore a{
+    font-family: 'Paragrafi';
+}
+.finale{
+    border-top: 1px solid black;
+margin-top: 2px;
+padding: 2% 5%;
+border-bottom: 1px solid black;
+}
+.titolazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titolazione p{
+    margin: 5px;
+}
+.dimensione{
+    max-width:369px;
+    max-height: 483px;
+}
+.flex1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vedi{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid black; 
+    font-family:'Paragrafi';
+}
+.vedi p{
+    margin: 5px;
+}
+.stile{
+    font-family:'GaramondRegular';
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+footer{
+    margin:2px;
+    border-top:1px solid black; 
+  padding: 0% 10% 1% 10%;
+  border-bottom:2px solid black; 
+}
+.social{
+    display: flex;
+    justify-content: center;
+    }
+.png{
+    width: 10%;
+} 
+.centrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}   
+.colonnasx{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid black;
+    padding-right: 4%;
+    text-align: center;
+  }
+.colonnadx{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border-left: 1px solid black;
+    padding-left: 4%;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Titolazioni';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+}
+.articolo{
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+#loren{
+    width: 100%;
+}
+.fontsize{
+    font-family:'Garamond' ;
+    font-size: 2vw;
+   
+}
+.borderbottom{
+    border-bottom: 1px solid black;
+    margin-bottom:2px ;
+}
+.riconoscimenti{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    border-top: 1px solid black;
+}
+#ritratto{
+    width: 40%;
+    max-height: 680px;
+}
+.riconoscimenti2{
+    width: 40%;
+    border-right: 1px solid black;
+    padding-right: 5%;
+}
+.litografie{
+    font-family: 'Garamond';
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#collezione{
+    border-top:1px solid black; 
+}
+.titolo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%; 
+}
+.nomi{
+    font-family:'Paragrafi';
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+}
+.flexColumn img{
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 7% 15% 0% 15%;
+}
+.immagini{
+    border-bottom: 1px solid black; 
+    margin-bottom: 30px;
+}
+.spacearound{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black; 
+}
+a{
+    color:#1e1e1e;
+    text-decoration: none;
+}
+.spacearound a{
+    font-family: 'Garamond';
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+
+@media (max-width: 750px) {
+    .header{
+        font-size: 24px;  
+     }
+     .articolo{
+        padding: 2% 5%;
+        
+     }
+     nav a {
+        font-size: 10px;
+     }
+  
+     .riconoscimenti{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #ritratto{
+        width: 100%;
+        max-height: 680px;
+    }
+    .riconoscimenti2{
+        border: none;
+        padding:0%;
+        width: 100%;
+    }
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .png{
+        width: 25%;
+    }
+    .link{
+        font-size: 24px;
+    }
+    .container{
+        padding: 2%;
+        grid-template-columns: 1fr;
+    }
+}
+
+    
